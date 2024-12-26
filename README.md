@@ -2,7 +2,7 @@
 *Author: Nguyen Trong Nhan*
 ## 1. Mục tiêu:
 **HOUSING PRICE REPORT** giúp ta phân tích các yếu tố ảnh hưởng đến giá trị của bất động sản dựa trên các đặc điểm của nó, có thể là các mối quan hệ giữa giá nhà và diện tích, loại hình nhà, năm xây dựng, vị trí nhà và giá trị nhà. Từ đó, ta có thể xây dựng các mô hình học máy dự đoán giá nhà bằng cách áp dụng các thuật toán như Linear Regression hay K-means. Dự án phù hợp và hữu ích với nhà phân tích dữ liệu trong việc xây dựng mô hình dự báo cũng như kiểm tra các giả thuyết phân tích thống kê. 
-## 2. Điều kiện tiên quyết** - Đảm bảo các yêu cầu sau:
+## 2. Điều kiện tiên quyết - Đảm bảo các yêu cầu sau:
 
 **Đã cài đặt phiên bản Python mới nhất**
 
