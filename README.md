@@ -28,8 +28,10 @@
 
 - Các thư viện cần thiết: *Pandas, Numpy, Scipy, Matplotlib, Seaborn, Plotly, Scikit-learn*
 - Cài đặt các thư viện: Trong thẻ Terminal, thực hiện cài đặt các thư viện bằng cú pháp “pip install <Package>”
+
 *Cách sử dụng*
 - Để chạy mã phân tích: python Report_Housing_Price.py --input “Visual Studio Code/Housing_Price Data/housing.csv”
+
 *Tập dữ liệu:*
 Dữ liệu được lấy từ Kaggle Housing Dataset. Tập dữ liệu có các đặc trưng như diện tích, số phòng ngủ, và giá nhà 
 (https://www.kaggle.com/datasets/sukhmandeepsinghbrar/housing-price-dataset) 
