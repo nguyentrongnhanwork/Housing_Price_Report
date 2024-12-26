@@ -9,9 +9,11 @@
 **Kỹ năng phân tích dữ liệu cơ bản:**
 - Thu thập và làm sạch dữ liệu
 - Khám phá dữ liệu (Exploratory data Analysis - EDA)
+
 **Kiến thức về thống kê:**
 - Thống kê mô tả
 - Phân tích tương quan
+
 **Học máy cơ bản:**
 - Học máy giám sát - Hồi quy tuyến tính (Linear Regression): Làm quen với các phương pháp hồi quy tuyến tính để dự đoán giá nhà dựa trên các đặc điểm của nó.
 - Học máy không giám sát - Phân cụm (K-means): Phân chia các ngôi nhà có cùng giá trị diện tích và giá cả lại với nhau thành từng nhóm
