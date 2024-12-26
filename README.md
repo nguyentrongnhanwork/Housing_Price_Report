@@ -3,26 +3,27 @@
 ## **Mục tiêu:**
 **HOUSING PRICE REPORT** giúp ta phân tích các yếu tố ảnh hưởng đến giá trị của bất động sản dựa trên các đặc điểm của nó, có thể là các mối quan hệ giữa giá nhà và diện tích, loại hình nhà, năm xây dựng, vị trí nhà và giá trị nhà. Từ đó, ta có thể xây dựng các mô hình học máy dự đoán giá nhà bằng cách áp dụng các thuật toán như Linear Regression hay K-means. Dự án phù hợp và hữu ích với nhà phân tích dữ liệu trong việc xây dựng mô hình dự báo cũng như kiểm tra các giả thuyết phân tích thống kê. 
 ## **Điều kiện tiên quyết** - Đảm bảo các yêu cầu sau:
-- Đã cài đặt phiên bản Python mới nhất
-- Kỹ năng phân tích dữ liệu cơ bản:
-+ Thu thập và làm sạch dữ liệu
-+ Khám phá dữ liệu (Exploratory data Analysis - EDA)
-- Kiến thức về thống kê:
-+ Thống kê mô tả
-+ Phân tích tương quan
-- Học máy cơ bản:
-+ Học máy giám sát - Hồi quy tuyến tính (Linear Regression): Làm quen với các phương pháp hồi quy tuyến tính để dự đoán giá nhà dựa trên các đặc điểm của nó.
-+ Học máy không giám sát - Phân cụm (K-means): Phân chia các ngôi nhà có cùng giá trị diện tích và giá cả lại với nhau thành từng nhóm
-- Kỹ năng lập trình : Ngôn ngữ Python
-- Kỹ năng trực quan hóa dữ liệu
-- Hiểu biết cơ bản về ngành bất động sản.
+**Đã cài đặt phiên bản Python mới nhất**
+**Kỹ năng phân tích dữ liệu cơ bản:**
+- Thu thập và làm sạch dữ liệu
+- Khám phá dữ liệu (Exploratory data Analysis - EDA)
+**Kiến thức về thống kê:**
+- Thống kê mô tả
+- Phân tích tương quan
+**Học máy cơ bản:**
+- Học máy giám sát - Hồi quy tuyến tính (Linear Regression): Làm quen với các phương pháp hồi quy tuyến tính để dự đoán giá nhà dựa trên các đặc điểm của nó.
+- Học máy không giám sát - Phân cụm (K-means): Phân chia các ngôi nhà có cùng giá trị diện tích và giá cả lại với nhau thành từng nhóm
+**Kỹ năng lập trình : Ngôn ngữ Python**
+**Kỹ năng trực quan hóa dữ liệu**
+**Hiểu biết cơ bản về ngành bất động sản**
 **Cài đặt và yêu cầu: Python 3.13.1**
 - Các thư viện cần thiết: *Pandas, Numpy, Scipy, Matplotlib, Seaborn, Plotly, Scikit-learn*
 - Cài đặt các thư viện: Trong thẻ Terminal, thực hiện cài đặt các thư viện bằng cú pháp “pip install <Package>”
 *Cách sử dụng*
 - Để chạy mã phân tích: python Report_Housing_Price.py --input “Visual Studio Code/Housing_Price Data/housing.csv”
-- Tập dữ liệu: Dữ liệu được lấy từ Kaggle Housing Dataset. Tập dữ liệu có các đặc trưng như diện tích, số phòng ngủ, và giá nhà 
-https://www.kaggle.com/datasets/sukhmandeepsinghbrar/housing-price-dataset 
+*Tập dữ liệu:*
+Dữ liệu được lấy từ Kaggle Housing Dataset. Tập dữ liệu có các đặc trưng như diện tích, số phòng ngủ, và giá nhà 
+(https://www.kaggle.com/datasets/sukhmandeepsinghbrar/housing-price-dataset) 
 ## **Các bước phân tích (Analysis Steps)**
 ### Làm sạch dữ liệu: 
 Xử lý các giá trị thiếu, các giá trị trùng lặp, các giá trị ngoại lai, các giá trị null và NA.
@@ -61,5 +62,5 @@ Phân nhóm ngôi nhà theo các đặc trưng chung: diện tích ngôi nhà
 ## Kết luận (Conclusion)
 Dự án đã phần nào xây dựng mô hình dự đoán giá nhà và phân loại nhà theo nhiều yếu tố khác nhau, giúp các nhà đầu tư cũng như các hộ gia đình đưa ra quyết định tốt hơn trong việc lựa chọn khu vực để đầu tư hoặc sinh sống.
 ## Tài liệu tham khảo (References)
-"Kaggle Housing Price Dataset: (https://www.kaggle.com/datasets/sukhmandeepsinghbrar/housing-price-dataset) ."
-"Học máy cơ bản: (https://scikit-learn.org/)."
+- "Kaggle Housing Price Dataset: (https://www.kaggle.com/datasets/sukhmandeepsinghbrar/housing-price-dataset) ."
+- "Học máy cơ bản: (https://scikit-learn.org/)."
