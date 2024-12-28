@@ -43,10 +43,10 @@ Mô tả và phân tích các đặc điểm của dữ liệu như phân phối
 ### Tiền xử lý dữ liệu: 
 Xử lý các dữ liệu bị thiếu, chuẩn hóa dữ liệu.
 ### Xây dựng mô hình: 
-Xây dựng mô hình Hồi quy tuyến tính và K-means để đánh giá các kết quả
-Dự đoán giá nhà khi biết được diện tích cụ thể
-Phân nhóm các ngôi nhà theo mức giá và diện tích
-Phân nhóm ngôi nhà theo các đặc trưng chung: diện tích ngôi nhà
+**Xây dựng mô hình Hồi quy tuyến tính và K-means để đánh giá các kết quả**
+- Dự đoán giá nhà khi biết được diện tích cụ thể
+- Phân nhóm các ngôi nhà theo mức giá và diện tích
+- Phân nhóm ngôi nhà theo các đặc trưng chung: diện tích ngôi nhà
 ## 4. Đánh giá mô hình: 
 - Mô hình Hồi quy tuyến tính: Sử dụng các chỉ số như r2 score (Điểm phù hợp), MAE (sai số tuyệt đối trung bình), MAPE (sai số phần trăm tuyệt đối trung bình) để đánh giá hiệu quả mô hình.
 - Mô hình phân cụm K-means: Phân cụm giá nhà các ngôi nhà có cùng diện tích 
